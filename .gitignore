@@ -1,1 +1,27 @@
+# Ignore dataset files
+*.csv
+*.tsv
+
+# Ignore all model checkpoints and training artifacts
+results/checkpoint-*/
+
+# Ignore specific machine learning artifacts
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.json
+
+# Ignore logs, temp files, and cache
+*.log
+*.out
+*.tmp
+.DS_Store
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
 .env

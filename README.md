@@ -1,19 +1,13 @@
-# Girl language
-Rough draft: [Work is starting, in progress]
+# Girl Language Interpreter
 
-Flow:
-User enter a prompt, and you deliverwhat the prompt actually mean in girls language.
+## Overview
+This project analyzes and interprets indirect communication styles commonly used in relationships. 
+Given a user’s text input, the system processes and translates it into a more explicit meaning based on conversational patterns found in real-world discussions.
 
-Planning
-Data collection: Webscrapin reddit
-NLP Libraries :Hugging mode,
-UI/DES\sign: React 
+## Features
+- **Text Analysis**: Understands hidden meanings behind common phrases.
+- **Machine Learning Model**: Uses DistilBERT for text classification.
+- **Data Collection**: Scrapes real-world relationship discussions from Reddit.
+- **User Interface**: React-based front end for easy interaction.
 
 
-Analysis 
-
-Design
-
-Implementation
-To activate the python envrionemtn
-source .venv/bin/activate
